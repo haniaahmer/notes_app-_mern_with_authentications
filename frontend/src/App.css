@@ -1,0 +1,62 @@
+@import "tailwindcss";
+.ql-font-sans {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.ql-font-serif {
+  font-family: "Times New Roman", serif;
+}
+.ql-font-monospace {
+  font-family: monospace;
+}
+.ql-font-arial {
+  font-family: Arial, sans-serif;
+}
+.ql-font-times-new-roman {
+  font-family: "Times New Roman", serif;
+}
+.ql-font-courier {
+  font-family: "Courier New", monospace;
+}
+.ql-editor {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+/* Show pixel size values instead of "Normal" */
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="10px"]::before {
+  content: "10px";
+}
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="12px"]::before {
+  content: "12px";
+}
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="16px"]::before {
+  content: "16px";
+}
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="18px"]::before {
+  content: "18px";
+}
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="24px"]::before {
+  content: "24px";
+}
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="32px"]::before {
+  content: "32px";
+}
+
+/* Also update the label in the toolbar */
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="10px"]::before {
+  content: "10px";
+}
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="12px"]::before {
+  content: "12px";
+}
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="16px"]::before {
+  content: "16px";
+}
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="18px"]::before {
+  content: "18px";
+}
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="24px"]::before {
+  content: "24px";
+}
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="32px"]::before {
+  content: "32px";
+}
